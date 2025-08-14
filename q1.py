@@ -1,6 +1,3 @@
-x = 5
-y = 6
-
 def swap(x, y):
     """
     Task 1
@@ -18,5 +15,8 @@ def swap(x, y):
 
 
 # Task 2
+# Invoke the function "swap" using the following scenarios:
+# - "Apple", 10
+# - 9, 17
 print(swap("Apple", 10))  # Expected output: -1
-swap(x, y)                # Expected output: x: 6 y: 5
+swap(9, 17)                # Expected output: x: 17 y: 9
